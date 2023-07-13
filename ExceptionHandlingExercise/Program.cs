@@ -43,12 +43,12 @@ namespace ExceptionHandlingExercise
                 catch
                 {
                     //character will be the name of each item in your collection
-                    Console.WriteLine($"Unable to Parse '{character}'");
-                }
-                foreach (var num in numbers)
-                {
-                    Console.WriteLine(num);
-                }
+                    Console.WriteLine($"Unable to Parse '{c}'");
+                }                
+            }
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
             }
         }
     }
